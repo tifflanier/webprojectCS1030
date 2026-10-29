@@ -1,0 +1,62 @@
+/*
+    Accent 1: #222E73 (dark blue)
+    Accent 2: #9A420E (dark orange)
+    Background: #FFFFFF (white)
+*/
+
+body {
+    padding: 0 36px 48px 48px;
+    font-size: 1.1em;
+}
+
+h1, h2, h3 {
+    color: #222E73;
+}
+
+h1 {
+    text-align: center;
+}
+
+th, td {
+    border: 3px solid #9A420E;
+    padding: 12px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    color: #222E73;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9A420E;
+}
+
+.text-box {
+    background-color: #222E73;
+    color: #FFFFFF;
+    width: 500px;
+    padding: 30px;
+    border: 5px dashed #9A420E;
+    margin: 30px;
+}
+
+.image-box {
+    background-color: #222E73;
+    width: 646px;
+    padding: 25px;
+    border: 6px double #9A420E;
+    margin: 30px;
+}
+
+p.picture {
+    padding: 0 36px 48px 48px;
+}
+
+p, li, th, td {
+    font-size: 1.2em;
+}
