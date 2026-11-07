@@ -1,0 +1,69 @@
+/*
+blue: #468BA6
+orange: #F29A2E
+light orange: #FDF0E0
+Headers: E63946
+brown: #593814
+*/
+
+body {
+	background-color: #000000; 
+	color: #FFFFFF;
+	padding: 0 24px 36px 24px;
+	text-align: center;
+}
+
+a {
+	color: #E63946;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #FFFFFF
+}
+	
+h1, h2, h3 {
+	color: #E63946
+	}
+
+h1 {
+	text-align: center;
+}
+
+p.picture {
+	text-align: center;
+}
+p, li, th, td {
+	font-size: 1.2em;
+}
+
+th, td {
+	/* border-color: #E63946;
+	border-style: solid; 
+	border-width: 3px; */
+	border: #E63946 solid 1px;
+	padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jeep-rules {
+    text-align: center;
+}
+
+.jeep-rules ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.navigation {
+    text-align: left;
+}
+
+.navigation a {
+    color: #FFFFFF;
+}
